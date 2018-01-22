@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// added from my app
+// import Fetch from './Fetch/Fetch.jsx';
+import Fetch from './Fetch.jsx';
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -53,6 +57,7 @@ class App extends Component {
             ? 'Fetching message from API'
             : this.state.message}
         </p>
+        <Fetch />
       </div>
     );
   }
