@@ -139,4 +139,4 @@ export default class Fetch extends Component {
   }
  }
  }
-ReactDOM.render(<Fetch />, document.getElementById('fetch'));
+// ReactDOM.render(<Fetch />, document.getElementById('fetch'));
