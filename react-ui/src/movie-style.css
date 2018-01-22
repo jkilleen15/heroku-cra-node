@@ -151,11 +151,17 @@ button {
 /* MEDIA QUERIES */
 
 @media (min-width: 0) and (max-width: 549px) {
-
+  .search-form input:only-of-type {
+    width: 100%;
+    border-bottom: 20px;
+  }
 }
 
 @media (min-width: 550px) {
-
+  .search-form input:only-of-type {
+    width: 100%;
+    border-bottom: 20px;
+  }
 }
 
 @media (min-width: 769px) {
@@ -169,5 +175,9 @@ button {
     width: 422px;
     float: right;
     margin-top: 34px;
+  }
+  .search-form input:only-of-type {
+    width: 100%;
+    border-bottom: 20px;
   }
 }
