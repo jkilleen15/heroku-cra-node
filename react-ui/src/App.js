@@ -38,11 +38,7 @@ class App extends Component {
 
   render () {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
+      <div className='App'>
         <Fetch />
       </div>
     );
@@ -53,6 +49,10 @@ export default App;
 
 // removed from template app
 /*
+<div className="App-header">
+  <img src={logo} className="App-logo" alt="logo" />
+  <h2>Welcome to React</h2>
+</div>
 <p className="App-intro">
   {'This is '}
   <a href="https://github.com/mars/heroku-cra-node">
