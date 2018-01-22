@@ -45,6 +45,9 @@ class App extends Component {
             {'create-react-app with a custom Node/Express server'}
           </a><br/>
         </p>
+        <p className="">
+          This is a message from Jessica!
+        </p>
         <p className="App-intro">
           {this.state.fetching
             ? 'Fetching message from API'
