@@ -43,20 +43,6 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <p className="App-intro">
-          {'This is '}
-          <a href="https://github.com/mars/heroku-cra-node">
-            {'create-react-app with a custom Node/Express server'}
-          </a><br/>
-        </p>
-        <p className="">
-          This is a message from Jessica!
-        </p>
-        <p className="App-intro">
-          {this.state.fetching
-            ? 'Fetching message from API'
-            : this.state.message}
-        </p>
         <Fetch />
       </div>
     );
@@ -64,3 +50,21 @@ class App extends Component {
 }
 
 export default App;
+
+// removed from template app
+/*
+<p className="App-intro">
+  {'This is '}
+  <a href="https://github.com/mars/heroku-cra-node">
+    {'create-react-app with a custom Node/Express server'}
+  </a><br/>
+</p>
+<p className="">
+  This is a message from Jessica!
+</p>
+<p className="App-intro">
+  {this.state.fetching
+    ? 'Fetching message from API'
+    : this.state.message}
+</p>
+*/
