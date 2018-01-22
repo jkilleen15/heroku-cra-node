@@ -1,11 +1,10 @@
-'use strict';
+// 'use strict';
 
 import React, { Component } from 'react';
-const ReactDOM = require('react-dom');
-const styles = require('../style.css');
+// const ReactDOM = require('react-dom');
+// const styles = require('../style.css');
 
 export default class SearchForm extends Component {
-
   constructor (props) {
     super(props);
     this.state = {searchText: ''};

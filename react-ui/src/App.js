@@ -7,7 +7,7 @@ import './App.css';
 import Fetch from './Fetch.jsx';
 
 class App extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.state = {
       message: null,
@@ -15,7 +15,7 @@ class App extends Component {
     };
   }
 
-  componentDidMount() {
+  componentDidMount () {
     fetch('/api')
       .then(response => {
         if (!response.ok) {
@@ -36,7 +36,7 @@ class App extends Component {
       })
   }
 
-  render() {
+  render () {
     return (
       <div className="App">
         <div className="App-header">

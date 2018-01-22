@@ -1,8 +1,8 @@
-'use strict';
+// 'use strict';
 
 import React, { Component } from 'react';
-const ReactDOM = require('react-dom');
-const styles = require('../style.css');
+// const ReactDOM = require('react-dom');
+// const styles = require('../style.css');
 // import Search from '../Search/Search.jsx';
 import Search from '../Search.jsx';
 const MovieDB = require('moviedb')('92bd2e0acc02c7e9732aa12f3e685a95');
@@ -120,9 +120,8 @@ export default class Fetch extends Component {
     );
 
   // else return image results
-  } else {
-
-    return (
+    } else {
+      return (
       <div>
         <div className='main-header'>
           <div className='inner'>
