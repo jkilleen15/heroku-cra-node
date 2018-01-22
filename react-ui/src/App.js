@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 // added from my app
 // import Fetch from './Fetch/Fetch.jsx';
