@@ -4,7 +4,7 @@ import './App.css';
 
 // added from my app
 // import Fetch from './Fetch/Fetch.jsx';
-import Fetch from './Fetch.jsx';
+import Fetch from './Fetch';
 
 class App extends Component {
   constructor (props) {
